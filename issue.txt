@@ -1,0 +1,2 @@
+1.index page not updating
+3.temparature data hiding

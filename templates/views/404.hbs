@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>header}}
+<body>
+    {{>navbar}}
+       <!-- main header -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-12 col-12 mx_header_left align-items-center">
+                        <figure class="errimg">
+                            <img class="img-fluid" src="img/404.jpg" alt="error 404 not found" title="arnab dana">
+                        </figure>
+                        {{!-- <p>Welcome to Arnab's Weather App</p> --}}
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button type="button" class="btn btn-primary btn-lg">Go Back To Home</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+   {{>footer}}
+</body>
+</html>

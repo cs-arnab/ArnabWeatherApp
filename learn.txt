@@ -1,0 +1,8 @@
+1.font awsome
+
+2.span tag dosnt break the line,div break the line
+
+3.after transferring html data to hbs then delete the html files
+
+4.server restart if js and hbs files updated
+nodemon src/app.js -e js,hbs
